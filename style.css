@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* overflow-y: hidden; */
+    height: 100vh;
+    background-color: magenta;
+}
+
+header {
+    text-align: center;
+    margin: 3rem;
+}
+
+.text {
+    padding: 12px;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.btn {
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.list {
+    text-align: justify;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 3px auto;
+    width: 25vw;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
